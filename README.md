@@ -31,9 +31,9 @@ This repository contains the Android practical experiments completed as part of 
 |----|------------|--------|
 | 1 | Hello Android App using Android Studio | ✅ Completed |
 | 2 | Login Screen using UI Components and Event Handlers | ✅ Completed |
-| 3 | SQLite-based Student Record Management App | ⏳ Upcoming |
-| 4 | Weather App using Public REST API | ⏳ Upcoming |
-| 5 | Firebase Authentication App | ⏳ Upcoming |
+| 3 | SQLite-based Student Record Management App | ✅ Completed |
+| 4 | Weather App using Public REST API | ✅ Completed |
+| 5 | Firebase Authentication App | ✅ Completed |
 | 6 | Google Maps Location Tracking App | ⏳ Upcoming |
 | 7 | Camera App with Internal Storage | ⏳ Upcoming |
 | 8 | Multi-Screen App using Fragments and Intents | ⏳ Upcoming |
@@ -56,6 +56,8 @@ Android-Practicals/
 ├── images/
 │
 ├── Practical List.pdf
+|
+├── .gitignore
 │
 └── README.md
 ```
@@ -71,12 +73,6 @@ Android-Practicals/
 - Firebase Authentication
 - REST API
 - Google Maps API
-
----
-
-# 📷 Screenshots
-
-Screenshots of every practical are available inside the **images/** folder.
 
 ---
 
