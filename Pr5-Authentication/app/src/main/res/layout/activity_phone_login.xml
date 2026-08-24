@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+  <ImageView
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:src="@drawable/graduation" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:text="Phone Login"
+      android:textColor="#1A237E"
+      android:textSize="28sp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="30dp"
+      android:text="Verify using OTP" />
+
+  <EditText
+      android:id="@+id/etPhone"
+      android:layout_width="match_parent"
+      android:layout_height="55dp"
+      android:layout_marginBottom="15dp"
+      android:background="@drawable/edittext_bg"
+      android:hint="Phone Number (+91XXXXXXXXXX)"
+      android:inputType="phone" />
+
+  <EditText
+      android:id="@+id/etOtp"
+      android:layout_width="match_parent"
+      android:layout_height="55dp"
+      android:layout_marginBottom="20dp"
+      android:background="@drawable/edittext_bg"
+      android:hint="Enter OTP"
+      android:inputType="number" />
+
+  <Button
+      android:id="@+id/btnSendOtp"
+      android:layout_width="match_parent"
+      android:layout_height="55dp"
+      android:background="@drawable/button_bg"
+      android:text="Send OTP"
+      android:textAllCaps="false"
+      android:textColor="#FFFFFF" />
+
+  <Button
+      android:id="@+id/btnVerifyOtp"
+      android:layout_width="match_parent"
+      android:layout_height="55dp"
+      android:layout_marginTop="15dp"
+      android:background="@drawable/button_bg"
+      android:text="Verify OTP"
+      android:textAllCaps="false"
+      android:textColor="#FFFFFF" />
+
+</LinearLayout>
