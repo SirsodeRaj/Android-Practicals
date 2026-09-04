@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+        <!-- Back Button -->
+
+
+        <!-- Header -->
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:backgroundTint="#E8EAF6"
+            android:text="← BACK"
+            android:textColor="#1A237E"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Student"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter student information below"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="28dp" />
+
+
+        <!-- Student Name -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/etStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter full name"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:background="#F5F5F5" />
+
+
+        <!-- Roll Number -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll Number"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/etRollNumber"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter roll number"
+            android:inputType="number"
+            android:padding="14dp"
+            android:background="#F5F5F5" />
+
+
+        <!-- Course -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="6dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCourse"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#F5F5F5"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+
+        <!-- Marks -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marks"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/etMarks"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter marks"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:background="#F5F5F5" />
+
+
+        <!-- Save Button -->
+
+        <Button
+            android:id="@+id/btnSaveStudent"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="SAVE STUDENT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp" />
+
+
+        <!-- Footer -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed by Raj Sirsode"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#607D8B"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
