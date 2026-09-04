@@ -1,4 +1,3 @@
-````markdown
 # 📱 Android Practicals – Mobile Application Development Laboratory
 
 This repository contains the Android practical experiments completed as part of the **Mobile Application Development Laboratory (AID422)** for **B.Tech Artificial Intelligence & Data Science (Semester VII)** at **Maharashtra Institute of Technology (MIT), Chhatrapati Sambhajinagar**.
