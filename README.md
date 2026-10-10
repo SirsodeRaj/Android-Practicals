@@ -1,47 +1,68 @@
-````markdown
 # 📱 Android Practicals – Mobile Application Development Laboratory
 
-This repository contains the Android practical experiments completed as part of the **Mobile Application Development Laboratory (AID422)** for **B.Tech Artificial Intelligence & Data Science (Semester VII)** at **Maharashtra Institute of Technology (MIT), Chhatrapati Sambhajinagar**.
+This repository contains Android practical experiments developed using **Java, XML, and Android Studio** as part of the **Mobile Application Development Laboratory (AID422)** for B.Tech Artificial Intelligence & Data Science, Semester VII, at **Maharashtra Institute of Technology (MIT), Chhatrapati Sambhajinagar**.
 
 ---
 
 ## 📖 Course Information
 
 | Details | Information |
-|---------|-------------|
-| **Institute** | Maharashtra Institute of Technology (MIT), Chhatrapati Sambhajinagar |
-| **Department** | Faculty of Science & Technology |
-| **Course** | Mobile Application Development Laboratory |
-| **Course Code** | AID422 |
-| **Semester** | VII |
-| **Branch** | Artificial Intelligence & Data Science |
+|---|---|
+| Institute | Maharashtra Institute of Technology (MIT), Chhatrapati Sambhajinagar |
+| Course | Mobile Application Development Laboratory |
+| Course Code | AID422 |
+| Semester | VII |
+| Branch | Artificial Intelligence & Data Science |
 
 ---
 
-## 🎯 Course Objectives
+## 🧪 Practical Experiments
 
-- Design and develop Android applications using Android Studio.
-- Implement UI components and event handling.
-- Work with local databases and cloud-based services.
-- Consume REST APIs in Android applications.
-- Implement authentication and other third-party integrations.
-- Gain practical experience in Android application development and testing.
-
----
-
-# 🧪 Completed Experiments
-
-| No. | Experiment | Project | Status |
-|----|------------|---------|--------|
-| 1 | Hello Android App using Android Studio | `Pr1-HelloAndroid` | ✅ Completed |
-| 2 | Login Screen using UI Components and Event Handlers | `Pr2-LogIn` | ✅ Completed |
-| 3 | SQLite-based Student Record Management App | `Pr3-StudentRecord` | ✅ Completed |
-| 4 | Weather App using Public REST API | `Pr4-WeatherApp` | ✅ Completed |
-| 5 | Firebase Authentication App | `Pr5-Authentication` | ✅ Completed |
+| No. | Experiment | Project Folder |
+|---:|---|---|
+| 1 | Hello Android App | `Pr1-HelloAndroid` |
+| 2 | Login Screen using UI Components | `Pr2-LogIn` |
+| 3 | SQLite Student Record Management | `Pr3-StudentRecord` |
+| 4 | Weather App using REST API | `Pr4-WeatherApp` |
+| 5 | Firebase Authentication | `Pr5-Authentication` |
+| 6 | Location Tracking / Map Application | `Pr6-GoogleMapAPI` |
+| 7 | Camera Application | `Pr7-Camera` |
+| 8 | Multi-Screen App using Fragments and Intents | `Pr8-Multi_Screen_App_Fragments_Intents` |
+| 9 | Music Player Application | `Pr9-MusicPlayer` |
+| 10 | Play Store Application | `Pr10-PlayStore` |
 
 ---
 
-# 📂 Repository Structure
+## ✨ Practical Overview
+
+- **Hello Android:** Introduction to Android Studio, Activities and UI components.
+- **Login Screen:** Login interface using XML layouts and Java event handling.
+- **Student Records:** Local database operations using SQLite.
+- **Weather App:** Fetching weather information using a public REST API.
+- **Firebase Authentication:** User authentication and registration.
+- **Location Tracking:** Map interface and location-related functionality.
+- **Camera App:** Camera-related Android functionality.
+- **Multi-Screen App:** Navigation using Activities, Fragments and Intents.
+- **Music Player:** Basic music player application.
+- **Play Store App:** Android application interface and related functionality.
+
+---
+
+## 🛠️ Technologies Used
+
+- Java
+- XML
+- Android Studio
+- Android SDK
+- SQLite
+- Firebase Authentication
+- REST APIs
+- MapLibre / Map APIs
+- Gradle
+
+---
+
+## 📂 Repository Structure
 
 ```text
 Android-Practicals/
@@ -51,163 +72,69 @@ Android-Practicals/
 ├── Pr3-StudentRecord/
 ├── Pr4-WeatherApp/
 ├── Pr5-Authentication/
+├── Pr6-GoogleMapAPI/
+├── Pr7-Camera/
+├── Pr8-Multi_Screen_App_Fragments_Intents/
+├── Pr9-MusicPlayer/
+├── Pr10-PlayStore/
 │
 ├── images/
-│
 ├── AIDS_B_104127 Experiment_1.pdf
 ├── AIDS_B_104127 Experiment_2.pdf
 ├── AIDS_B_104127 Experiment_3.pdf
 ├── AIDS_B_104127 Experiment_4.pdf
 ├── AIDS_B_104127 Experiment_5.pdf
+├── AIDS_B_104127 Experiment_6.pdf
+├── AIDS_B_104127 Experiment_7.pdf
+├── AIDS_B_104127 Experiment_8.pdf
+├── AIDS_B_104127 Experiment_9.pdf
+├── AIDS_B_104127 Experiment_10.pdf
 │
 ├── Practical List.pdf
-├── .gitignore
 └── README.md
-````
-
----
-
-# 📱 Practical Projects
-
-### 1️⃣ Hello Android
-
-Basic Android application developed using Android Studio to understand the structure of an Android project, layouts, activities, and basic UI components.
-
-📁 `Pr1-HelloAndroid`
-
----
-
-### 2️⃣ Login Screen
-
-Android login application demonstrating UI components, input fields, buttons, and event handling.
-
-📁 `Pr2-LogIn`
-
----
-
-### 3️⃣ Student Record Management
-
-SQLite-based Android application for storing and managing student records.
-
-The application supports:
-
-* Adding student details
-* Storing records using SQLite
-* Viewing saved student records
-* Course selection
-* Multiple screens using Activities
-
-📁 `Pr3-StudentRecord`
-
----
-
-### 4️⃣ Weather App
-
-Weather application developed using a public REST API.
-
-The application allows users to:
-
-* Search for a city
-* Select a city from suggestions
-* Fetch weather information using an API
-* Display weather information through the Android UI
-
-📁 `Pr4-WeatherApp`
-
----
-
-### 5️⃣ Firebase Authentication
-
-Android application demonstrating user authentication using Firebase.
-
-The project includes authentication-related functionality such as:
-
-* User registration
-* User login
-* Firebase Authentication
-* Authentication-based application flow
-
-📁 `Pr5-Authentication`
-
----
-
-# 🛠️ Technologies Used
-
-* **Java**
-* **XML**
-* **Android Studio**
-* **SQLite**
-* **Firebase Authentication**
-* **REST API**
-* **Google Maps API**
-* **Android SDK**
-
----
-
-# ▶️ How to Run
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/SirsodeRaj/Android-Practicals.git
 ```
 
-### 2. Open the Project
+---
 
-Open the required practical folder in **Android Studio**.
+## ▶️ How to Run
 
-### 3. Sync Gradle
+1. Clone the repository:
 
-Allow Android Studio to download and synchronize the required dependencies.
+   ```bash
+   git clone https://github.com/SirsodeRaj/Android-Practicals.git
+   ```
 
-### 4. Run the Application
+2. Open the required practical project folder in Android Studio.
+3. Allow Gradle synchronization to complete.
+4. Run the application on an Android Emulator or a physical Android device.
 
-Run the application using:
+## 📚 Prerequisites
 
-* Android Emulator, or
-* Physical Android Device
+- Android Studio
+- Java JDK
+- Android SDK
+- Android Emulator or Android smartphone
+- Internet connection for projects that require APIs or Firebase
 
 ---
 
-# 📚 Prerequisites
+## 📄 Practical Documentation
 
-Before running the projects, make sure you have:
-
-* Android Studio
-* Java JDK
-* Android SDK
-* Android Emulator or Physical Android Device
-* Internet connection for projects using REST APIs or Firebase
+Experiment-wise PDF files are included in the repository to document the practical work, implementation steps and outputs.
 
 ---
 
-# 📄 Practical Documentation
-
-The repository also contains the practical documentation PDFs:
-
-* Experiment 1
-* Experiment 2
-* Experiment 3
-* Experiment 4
-* Experiment 5
-
-These documents contain the respective practical work and documentation.
-
----
-
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Raj Sirsode**
 
-B.Tech – Artificial Intelligence & Data Science
+B.Tech – Artificial Intelligence & Data Science  
 Maharashtra Institute of Technology (MIT), Chhatrapati Sambhajinagar
 
-GitHub: [https://github.com/SirsodeRaj](https://github.com/SirsodeRaj)
+GitHub: [SirsodeRaj](https://github.com/SirsodeRaj)
 
 ---
 
 ## ⭐ Repository Status
 
-This repository is maintained as part of the **Mobile Application Development Laboratory (AID422)** and will be updated with additional practical experiments and improvements throughout Semester VII.
-
-````
+This repository is maintained as part of the **Mobile Application Development Laboratory (AID422)** and will be updated as additional experiments and improvements are completed.
