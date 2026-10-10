@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- getFilesDir()/images/  (app-private internal storage) -->
+    <files-path
+        name="internal_images"
+        path="images/" />
+</paths>

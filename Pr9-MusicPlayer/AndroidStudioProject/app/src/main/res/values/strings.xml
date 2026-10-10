@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Background Music Player</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="song_title">Sample Melody (Ode to Joy)</string>
+    <string name="note">Press Play, then press Home or open another app. The music keeps playing because it runs inside a Service. Use the notification to Pause or Stop.</string>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fragments and Intents</string>
+    <string name="title_home">Home</string>
+    <string name="title_form">Profile Form</string>
+    <string name="title_about">About</string>
+    <string name="title_detail">Profile Details</string>
+    <string name="welcome">Welcome to the Multi-Screen App</string>
+    <string name="home_info">This app uses 3 Fragments inside one Activity and a second Activity opened with Intents.</string>
+    <string name="no_profile">No profile submitted yet.</string>
+    <string name="open_website">Open Website (Implicit Intent)</string>
+    <string name="share_app">Share App (Implicit Intent)</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_course">Course / Branch</string>
+    <string name="submit">Submit (Explicit Intent)</string>
+    <string name="confirm">Confirm and Return</string>
+    <string name="send_email">Send Email (Implicit Intent)</string>
+    <string name="about_text">Experiment 8: demonstrates Fragments (Home, Form, About), FragmentManager transactions, BottomNavigationView, explicit Intents with extras, implicit Intents (web, share, dialer, email) and returning a result to the calling screen.</string>
+    <string name="call_support">Dial Support Number (Implicit Intent)</string>
+</resources>

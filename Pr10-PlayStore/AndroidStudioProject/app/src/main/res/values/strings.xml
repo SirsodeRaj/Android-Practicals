@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bill Splitter</string>
+    <string name="hint_bill">Bill amount</string>
+    <string name="hint_tip">Tip percentage (e.g. 10)</string>
+    <string name="hint_people">Number of people</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+</resources>

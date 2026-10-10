@@ -1,0 +1,9 @@
+<resources>
+    <!--
+        Replace the text below with YOUR OWN Maps SDK for Android API key.
+        Steps: Google Cloud Console > create project > enable "Maps SDK for Android"
+        > Credentials > Create API key (see README.md).
+        Never upload a real key to a public repository.
+    -->
+    <string name="google_maps_key" templatable="false">YOUR_API_KEY_HERE</string>
+</resources>
